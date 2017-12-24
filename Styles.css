@@ -24,9 +24,8 @@ div {
     padding-left: 13%;
 }
 .thumbnail img {
-    position: relative;
-    float: left;
-    width:  232px;
-    height: 232px;
+       float: left;
+    width: 45%;
+    margin: 2.5%;
    
 }

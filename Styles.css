@@ -23,9 +23,10 @@ div {
     padding-bottom: 0%;
     padding-left: 13%;
 }
-#gallery{
-	height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+.thumbnail img {
+    position: relative;
+    float: left;
+    width:  232px;
+    height: 232px;
+   
 }

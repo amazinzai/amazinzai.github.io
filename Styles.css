@@ -29,3 +29,7 @@ div {
     margin: 2.5%;
    
 }
+@font-face {
+font-family: libelsuit;
+src: url(/libel-suit-rg.ttf);
+}

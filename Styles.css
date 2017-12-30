@@ -1,35 +1,51 @@
 div {
-   border-width: 1px;
-   border-style: dashed;
-   border-color: black;
+    margin: 0px;
+	padding-right: 10%;
+    padding-left: 10%;
 }
 
 #header {  
-	position: static;
-    left: auto;
-    right: auto;
-    float: none;
-    height: auto;
-    line-height: 1.5em;
-    margin-top: 0;
-    padding-top: 10px;
-    padding-right: 13%;
-    padding-left: 13%;
+        
+}
+a, a:visited{
+     color:#adb2ba;
+     text-decoration: none;
+}    
+
+a:hover {
+    color: #3C455D;
+    text-decoration: underline;
+}
+#main {
+	
 }
 
-#main {
-	padding-top: 1%;
-    padding-right: 13%;
-    padding-bottom: 0%;
-    padding-left: 13%;
-}
 .thumbnail img {
-       float: left;
     width: 45%;
     margin: 2.5%;
    
 }
 @font-face {
-font-family: libelsuit;
-src: url(/libel-suit-rg.ttf);
+   font-family: Libel;
+   src: url(libel-suit-rg.ttf);
+}
+
+#name {
+   font-family:Libel;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 3em;
+   line-height: 1.25em;
+}
+#gallery {
+	font-family:Libel;
+	text-align: right;
+	color: #adb2ba;
+	font-size: 2em;
+	line-height: 1.25em;
+
+
+}
+
+#footer{
 }

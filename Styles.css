@@ -28,7 +28,6 @@ a:hover {
 @font-face {
    font-family: libelsuit; 
    src: url(“../libel-suit/libel-suit-rg.ttf”)
-   format('truetype'); 
 }
 
 #name {

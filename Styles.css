@@ -1,10 +1,7 @@
-div {
-    margin: 0px;
-	padding-right: 10%;
-    padding-left: 10%;
-}
-
-#header {  
+#header { 
+	margin: 0px;
+	padding-right: 15%;
+    padding-left: 15%;
         
 }
 a, a:visited{
@@ -17,14 +14,26 @@ a:hover {
     text-decoration: underline;
 }
 #main {
-	
+	margin: 0px;
+	padding-right: 15%;
+    padding-left: 15%;
 }
 
 .thumbnail img {
-    width: 45%;
-    margin: 2.5%;
+    width: 20%;
+    margin: 2%;
+    transition: all .2s ease-in-out;
    
 }
+
+.thumbnail:hover img{
+	opacity: .6;
+	transform: scale(.92);
+}
+.thumbnail img:hover {
+	opacity: 1;
+	transform: scale(1);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
 @font-face {
  font-family:libelsuit;
  src: url(../libel-suit/libel-suit-rg.ttf);
@@ -49,4 +58,7 @@ a:hover {
 }
 
 #footer{
+margin: 0px;
+	padding-right: 15%;
+    padding-left: 15%;
 }

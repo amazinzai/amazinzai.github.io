@@ -34,9 +34,11 @@ a:hover {
 	opacity: 1;
 	transform: scale(1);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+	
 @font-face {
- font-family:libelsuit;
- src: url(../libel-suit/libel-suit-rg.ttf);
+	font-family:libelsuit;
+	src: url(../libel-suit/libel-suit-rg.ttf);
 }
 
 
